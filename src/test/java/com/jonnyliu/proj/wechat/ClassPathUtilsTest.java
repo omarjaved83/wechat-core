@@ -30,10 +30,10 @@ public class ClassPathUtilsTest {
         Assert.assertTrue(!classesInPath.isEmpty());
     }
 
-    @Test
-    public void testGetClassByAnnotation() {
-        Set<Class<? extends AbstractMessageHandler>> classesByAnnotation =
-                ClassPathUtils.getClassesByAnnotation(MessageProcessor.class);
-        System.out.println(classesByAnnotation);
-    }
+//     @Test
+//     public void testGetClassByAnnotation() {
+//         Set<Class<? extends AbstractMessageHandler>> classesByAnnotation =
+//                 ClassPathUtils.getClassesByAnnotation(MessageProcessor.class);
+//         System.out.println(classesByAnnotation);
+//     }
 }
